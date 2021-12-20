@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title> To Do List </title >
+      <link href="{{  url_for('static',filename='css/main.css') }}" rel="stylesheet" type="text/css" />
+      <style>
+        body {
+          background-image: url('ni.jpg');
+        }
+        </style>
+        {% block head %}{% endblock %}
+  </head>
+  <body>
+    {% block body %}{% endblock %}
+  </body>
+</html>
